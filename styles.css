@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto; 
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-image: url('media/1ab08-15246603213673524282_1000x669.jpg');
+  position: relative;
+  height: 100%;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 46px;
+  font-family: Arial;
+}
+
+p {
+  color: #fff;
+  line-height: 1.5;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 26px;
+}
+
+.Blocks {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+  text-decoration: none !important;
+  text-align: center;
+}
+
+.Blocks ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  text-decoration: none !important;
+}
+
+.Blocks li {
+  color: #fff;
+  padding: 20px;
+  margin: 40px auto;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 48px;
+  width: 270px;
+  height: 160px;
+  text-align: center;
+  display: block; 
+  text-decoration: none !important;
+}
+.Blocks a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.Blocks li:hover {
+  background-color: #4d565d;
+}
